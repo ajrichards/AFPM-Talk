@@ -39,13 +39,12 @@ nosetests.xml
 .project
 .pydevproject
 
-
 *.DS_Store
 */src/_build/*
 *.ipynb_checkpoints/
-*.nbgrader.log
-
-db/data/assessment.ipynb
 
 # pycharm
 .idea/*
+
+# data specific
+data/CMAPSSData.zip
